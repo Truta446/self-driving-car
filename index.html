@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Self-driving car</title>
+    <link rel="icon" type="image/png" href="assets/images/favicon.png">
+
+    <link rel="stylesheet" href="src/css/style.css" />
+  </head>
+  <body>
+    <canvas id="carCanvas"></canvas>
+    <div id="verticalButtons">
+      <button onclick="save()">💾</button>
+      <button onclick="discard()">🗑️</button>
+    </div>
+    <canvas id="networkCanvas"></canvas>
+
+    <script src="src/js/visualizer.js"></script>
+    <script src="src/js/network.js"></script>
+    <script src="src/js/sensor.js"></script>
+    <script src="src/js/utils.js"></script>
+    <script src="src/js/road.js"></script>
+    <script src="src/js/controls.js"></script>
+    <script src="src/js/car.js"></script>
+    <script src="src/js/main.js"></script>
+  </body>
+</html>
